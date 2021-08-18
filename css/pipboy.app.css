@@ -127,18 +127,21 @@ a.nav-tabs > .nav-link{
 .paragraph{
     padding-top: 120px;
     padding-left: 150px;
+    padding-right: 20px;
     float: left;
     width: 50%;
 }
 .ipad{
 
-padding-left: 200px;
+    padding-left: 200px;
     padding-top: 120px;
     float: right;
     max-width: 100%;
+
 }
 .mainpageText{
     display: flex;
+
 
 }
 .mainbackground{
@@ -158,4 +161,8 @@ padding-left: 200px;
     color: #14fe17;
     background: #272b23!important;
 
+}
+.navbar-light .navbar-toggler {
+    color: #14fe17!important;
+    border-color: #14fe17!important;
 }
