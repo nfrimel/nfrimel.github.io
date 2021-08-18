@@ -8,6 +8,7 @@ body{
     color: #14fe17!important;
     background: #272b23 !important;
 
+
 }
 .navbar{
     border-bottom: 2px solid;
@@ -138,8 +139,19 @@ padding-left: 200px;
 }
 .mainpageText{
     display: flex;
-}
 
+}
+.mainbackground{
+
+    background-image: url("https://uploads-ssl.webflow.com/5aafeff0c82e207010a03358/5aafeff0c82e20c1baa03434_homeHero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
 .dropdown-menu> li > a:hover    {
 
 
